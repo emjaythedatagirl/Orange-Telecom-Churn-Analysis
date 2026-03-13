@@ -1,5 +1,8 @@
 # Telecom Customer Churn Analysis
 
+![](daba-finance-invest-africa-1744684087728-orange.png)
+
+
 ## Project Overview
 The objective of this project was to transform raw telecom customer data into meaningful business insights using  interactive dashboards in Power BI.  
 
@@ -59,15 +62,16 @@ The dataset includes the following key variables:
 # Problem Statement
 The analysis aims to answer the following business questions:
 
-- What percentage of customers are churning?
-- Do customers with international plans churn more?
-- Does customer service interaction influence churn?
-- Does having a voice mail plan reduce churn?
-- Which states have the highest churn rates?
-- Do customers with high call frequency churn more often?
-- What are the usage patterns of churned vs active customers?
-- How does customer tenure relate to churn behavior?
-- Is there a relationship between total minutes and total charges?
+- Do international plan users churn more?
+- Do customer service complaints increase churn?
+- Does voicemail plan affect churn?
+- Does voicemail plan affect churn?
+- Do heavy users churn more?
+- Do heavy users churn more?
+- Do frequent callers churn more?
+- How often do customers contact support?
+- How common are telecom service features?
+- What are the call patterns during the day?
 
 ---
 
@@ -96,9 +100,6 @@ The analysis aims to answer the following business questions:
 - Slicers and filters for user interaction  
 
 ---
-
-# Modelling
-The dataset was transformed to support effective analysis and visualization.
 
 Several calculated fields were created to enhance the analysis:
 
