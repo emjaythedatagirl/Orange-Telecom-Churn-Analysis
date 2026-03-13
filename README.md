@@ -102,28 +102,50 @@ The analysis aims to answer the following business questions:
 
 ---
 
-Several calculated fields were created to enhance the analysis:
+# Analysis
 
-### Calculated Columns
+The analysis was performed using Power BI and focused on identifying **churn drivers and customer usage patterns**.
 
-**Total Minutes**  
-Sum of total day minutes, total evening minutes and total night minutes:
+## Data Cleaning & Preparation
 
-**Total Charges**  
+The following preprocessing steps were performed:
+
+- Checked and corrected data types
+- Handled missing values where necessary
+- Created additional calculated columns including:
+
+### 1. Total Minutes
+Sum of total day minutes, total evening minutes and total night minutes
+
+### 2. Total Charges
 Sum of total day charge, total evening charge and total night charge:
 
-
-**Call Frequency Bin**
+### 3. Call Frequency Bins
+Customers were categorized based on total call activity.
 - Low Call
 - Mid Call
 - High Call
-
-**Account Length Bin (Customer Tenure)**
+  
+### 4. Account Length Bins
+Customers were grouped based on their tenure.
 - Short-Term Customers
 - Mid-Term Customers
 - Long-Term Customers
 
-These features help segment customers for deeper behavioral analysis.
+---
+
+## Data Exploration
+
+The dataset was explored to uncover patterns related to:
+
+- Customer churn behavior
+- Service adoption
+- Customer complaints
+- Usage patterns
+- Billing relationships
+
+Visualizations such as bar charts, column charts, and scatter plots were used to identify trends and relationships within the data.
+
 
 ---
 
@@ -212,16 +234,17 @@ This indicates that **customer churn varies across regions**, suggesting the nee
 
 - This suggests that **customers with higher usage levels may have different expectations regarding service value and pricing**.
 
-**Column Chart**
-- Churn Rate by Call Frequency Bin
+
+## DO CUSTOMERS WITH HIGH CALL FREQUENCY CHURN MORE?
 
 - ![](churnbycallfreq.PNG)
 
-### Slicers for Interactivity
-- Churn
-- State
-- International Plan
-- Voice Mail Plan
+- Customers categorized under **High Call Frequency recorded the highest churn rate at 64.29%**.
+
+- Mid-frequency callers had a churn rate of **24.53%**, while low-frequency callers had the lowest churn rate at **11.39%**.
+
+- This suggests that **heavy telecom users may be more sensitive to pricing or service quality issues**.
+
 
 ---
 
@@ -229,75 +252,98 @@ This indicates that **customer churn varies across regions**, suggesting the nee
 
 This dashboard focuses on understanding **customer usage behavior and service adoption patterns**.
 
-### Key Visuals
 
-**Cards**
-- Total Customers
-- Total Minutes
-- Total Charges
-- Average Account Length
+## HOW ARE CUSTOMERS DISTRIBUTED BY ACCOUNT LENGTH?
 
-**Column Chart**
-- Customer Distribution by Account Length (Tenure)
+![](behavioraccount.PNG)
 
-**Bar Chart**
-- Distribution of Customer Service Calls
+- Most customers fall within the **mid-term account length category (1,539 customers)**.
 
-**Donut Charts**
-- Voice Mail Plan Adoption
-- International Plan Adoption
+- New customers account for **1,066 customers**, while **long-term customers represent only 61 customers**.
 
-**Clustered Column Chart**
-- Average Calls by Time of Day
-
-**Scatter Plot**
-- Total Minutes vs Total Charges
-
-### Slicers for Interactivity
-- State
-- Churn
-- Call Frequency Bin
-- Account Length Bin
+- This suggests that the customer base is largely composed of **mid-tenure customers rather than long-term loyal customers**.
 
 ---
 
-# Analysis
+## HOW OFTEN DO CUSTOMERS CONTACT CUSTOMER SUPPORT?
 
-The analysis was performed using Power BI and focused on identifying **churn drivers and customer usage patterns**.
+![](behaviorcustomerservice.PNG)
 
-## Data Cleaning & Preparation
+- Most customers made **between 0 and 2 customer service calls**, indicating relatively low interaction with support services.
 
-The following preprocessing steps were performed:
+- A smaller number of customers recorded **4 or more service calls**, suggesting potential service issues or dissatisfaction for that group.
 
-- Checked and corrected data types
-- Handled missing values where necessary
-- Created additional calculated columns including:
-
-### 1. Total Minutes
-Combined all call minute columns to measure overall customer usage.
-
-### 2. Total Charges
-Combined all charge columns to analyze total telecom billing.
-
-### 3. Call Frequency Bins
-Customers were categorized based on total call activity.
-
-### 4. Account Length Bins
-Customers were grouped based on their tenure.
+- This distribution helps identify **customers who may be experiencing service challenges**.
 
 ---
 
-## Data Exploration
+## HOW MANY CUSTOMERS SUBSCRIBE TO THE VOICE MAIL PLAN?
 
-The dataset was explored to uncover patterns related to:
+![](behaviorvoiceplan.PNG)
 
-- Customer churn behavior
-- Service adoption
-- Customer complaints
-- Usage patterns
-- Billing relationships
+- The majority of customers **do not subscribe to the Voice Mail Plan**.
 
-Visualizations such as bar charts, column charts, and scatter plots were used to identify trends and relationships within the data.
+- Approximately **2,000 customers (72.5%) do not have the plan**, while about **1,000 customers (27.5%) have the Voice Mail Plan**.
+
+- This indicates that **value-added telecom services are adopted by only a minority of customers**.
+
+---
+
+## HOW MANY CUSTOMERS USE THE INTERNATIONAL PLAN?
+
+![](behaviorinternational.PNG)
+
+- Only **34 customers subscribe to the International Plan**, while **226 customers do not have the plan**.
+
+- This shows that **international service adoption is relatively low among the customer base**.
+
+- The low adoption rate may reflect **limited demand or higher pricing for international calling services**.
+
+---
+
+## WHAT ARE THE CUSTOMER CALL PATTERNS BY TIME OF DAY?
+
+![](behaviorcalltimeofday.PNG)
+
+Average call minutes are relatively balanced across the different time periods.
+
+Customers recorded an average of:
+
+- **179 minutes during the day**
+- **200 minutes during the evening**
+- **201 minutes during the night**
+
+This suggests that **customer usage is fairly evenly distributed throughout the day**, with slightly higher activity during evening and night periods.
+
+---
+
+## IS THERE A RELATIONSHIP BETWEEN TOTAL MINUTES AND TOTAL CHARGES?
+
+![](behaviorbilling.PNG)
+
+The scatter plot shows a **strong positive relationship between total minutes used and total telecom charges**.
+
+Customers with higher call usage consistently incur **higher telecom charges**.
+
+This confirms that **telecom billing increases proportionally with customer usage**, which aligns with expected pricing structures.
+
+---
+
+# Key Insights & Findings
+
+The telecom dataset contains **2,666 customers**, with an **average revenue per user of $59**.
+
+Most customers fall within the **mid-term account length category**, while long-term customers represent a very small portion of the customer base.
+
+The majority of customers **make between 0 and 2 customer service calls**, suggesting generally low interaction with support services.
+
+Approximately **72.5% of customers do not subscribe to the Voice Mail Plan**, indicating low adoption of value-added services.
+
+International plan adoption is **very low**, with only a small portion of customers subscribing to the service.
+
+Customer call activity is **fairly balanced across day, evening, and night periods**, with slightly higher usage during evening and night hours.
+
+A **strong linear relationship exists between total call minutes and total charges**, confirming that telecom billing is directly tied to customer usage.
 
 ---
 
