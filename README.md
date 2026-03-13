@@ -250,6 +250,8 @@ This indicates that **customer churn varies across regions**, suggesting the nee
 
 ## Dashboard 2: Telecom Customer Behaviour Analysis
 
+![](behavior.PNG)
+
 This dashboard focuses on understanding **customer usage behavior and service adoption patterns**.
 
 
@@ -331,37 +333,29 @@ This confirms that **telecom billing increases proportionally with customer usag
 
 # Key Insights & Findings
 
-The telecom dataset contains **2,666 customers**, with an **average revenue per user of $59**.
+- The telecom dataset contains **2,666 customers**, with **388 customers churning**, resulting in an overall **churn rate of 14.55%**.
 
-Most customers fall within the **mid-term account length category**, while long-term customers represent a very small portion of the customer base.
+- Customers subscribed to the **International Plan recorded the highest churn rate (43.7%)**, significantly higher than customers without the plan.
 
-The majority of customers **make between 0 and 2 customer service calls**, suggesting generally low interaction with support services.
+- Customers who made **frequent customer service calls showed a much higher likelihood of churning**, indicating that repeated complaints strongly influence customer attrition.
 
-Approximately **72.5% of customers do not subscribe to the Voice Mail Plan**, indicating low adoption of value-added services.
+- Customers **without a Voice Mail Plan churn almost twice as much as those with the plan**, suggesting that value-added services may help improve retention.
 
-International plan adoption is **very low**, with only a small portion of customers subscribing to the service.
+- **Texas and New Jersey recorded the highest churn rates**, followed by Arkansas, Maryland, and Mississippi, showing that churn varies across states.
 
-Customer call activity is **fairly balanced across day, evening, and night periods**, with slightly higher usage during evening and night hours.
+- Customers categorized under **High Call Frequency recorded the highest churn levels**, indicating that heavy telecom users may be more sensitive to pricing or service quality.
 
-A **strong linear relationship exists between total call minutes and total charges**, confirming that telecom billing is directly tied to customer usage.
+- The majority of customers fall within the **mid-term account length category**, while **long-term customers represent a small portion** of the customer base.
 
----
+- Most customers made **between 0 and 2 customer service calls**, suggesting relatively low interaction with customer support for the majority of users.
 
-# Key Findings
+- **Voice Mail Plan adoption is relatively low**, with most customers not subscribing to the service.
 
-- The dataset contains **2,666 customers**, with **388 customers churning**, resulting in a **14.55% churn rate**.
+- **International Plan adoption is also very low**, indicating that only a small portion of customers require international calling services.
 
-- Customers with an **International Plan churn significantly more (43.7%)** than customers without the plan (11.27%).
+- Customer call activity is **fairly balanced across day, evening, and night periods**, with slightly higher usage during evening and night hours.
 
-- Customers who made **multiple customer service calls show dramatically higher churn rates**, indicating dissatisfaction with service support.
-
-- Customers **without a Voice Mail Plan churn almost twice as much** as those with the plan.
-
-- Certain states such as **Texas and New Jersey show the highest churn rates**.
-
-- Customers with **high call frequency demonstrate the highest churn risk**, suggesting heavy users may be more sensitive to service quality or pricing.
-
-- A **strong linear relationship exists between total minutes and total charges**, confirming that telecom billing is directly proportional to usage.
+- A **strong positive relationship exists between total call minutes and total charges**, confirming that telecom billing increases proportionally with customer usage.
 
 ---
 
@@ -385,3 +379,4 @@ Customers with **high call frequency and frequent complaints** should be flagged
 Regions with higher churn rates should receive **focused marketing campaigns and service improvements**.
 
 ---
+[Click here to access the project files](https://drive.google.com/drive/folders/18LPyWgWpHx085tZsBbiDlerL-axdL_9f?usp=sharing)
