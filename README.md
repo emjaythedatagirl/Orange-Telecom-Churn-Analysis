@@ -142,6 +142,7 @@ This dashboard focuses on identifying **key drivers of customer churn**.
 ### Key Visuals
 
 **Cards**
+
 ![](telecom_kpi.PNG)
 
 - Total Customers
@@ -152,20 +153,32 @@ This dashboard focuses on identifying **key drivers of customer churn**.
 **Column Chart**
 - Churn Rate by International Plan
 
+- ![](churnbyinternatonal.PNG)
+
 **Column Chart**
 - Churn Rate by Customer Service Calls
+
+- ![](churnbycustomerservice.PNG)
 
 **Column Chart**
 - Churn Rate by Voice Mail Plan
 
+- ![](churnbyvoiceplan.PNG)
+
 **Bar Chart**
 - Top 5 States by Churn Rate
+
+- ![](churnbystate.PNG)
 
 **Clustered Bar Chart**
 - Average Usage Pattern of Churned vs Active Customers
 
+- ![](churnbyusagepattern.PNG)
+
 **Column Chart**
 - Churn Rate by Call Frequency Bin
+
+- ![](churnbycallfreq.PNG)
 
 ### Slicers for Interactivity
 - Churn
