@@ -127,7 +127,7 @@ These features help segment customers for deeper behavioral analysis.
 
 ---
 
-# Visualization
+# Visualization and Key Questions Answered
 
 Two dashboards were designed in Power BI to present insights from different analytical perspectives.
 
@@ -150,30 +150,67 @@ This dashboard focuses on identifying **key drivers of customer churn**.
 - Churn Rate
 - Average Revenue Per User (ARPU)
 
-**Column Chart**
-- Churn Rate by International Plan
+## WHAT IS THE OVERALL CUSTOMER CHURN RATE?
+
+Out of 2,666 total customers, **388 customers churned**, resulting in a **14.55% churn rate**.
+
+This indicates that roughly **1 in every 7 customers leaves the telecom service**, highlighting the need for targeted retention strategies.
+
+## DO CUSTOMERS WITH INTERNATIONAL PLANS CHURN MORE?
 
 - ![](churnbyinternatonal.PNG)
 
-**Column Chart**
-- Churn Rate by Customer Service Calls
+- Customers with an **International Plan recorded a churn rate of 43.7%**, which is significantly higher than customers without the plan.
+
+- Customers without an international plan had a churn rate of **11.27%**.
+
+This suggests that **international plan users are far more likely to churn**, possibly due to pricing concerns or dissatisfaction with service value.
+
+
+## DOES CUSTOMER SERVICE INTERACTION INFLUENCE CHURN?
 
 - ![](churnbycustomerservice.PNG)
 
-**Column Chart**
-- Churn Rate by Voice Mail Plan
+- Customers who made **multiple customer service calls showed significantly higher churn rates**.
+
+- Churn remained relatively low for customers with **0–2 service calls**, but increased sharply as the number of complaints rose.
+
+- Customers with **8 customer service calls recorded a 100% churn rate**, indicating extremely high dissatisfaction levels.
+
+- This suggests that **frequent service complaints are one of the strongest indicators of churn risk**.
+
+
+## DOES HAVING A VOICE MAIL PLAN REDUCE CHURN?
 
 - ![](churnbyvoiceplan.PNG)
 
-**Bar Chart**
-- Top 5 States by Churn Rate
+- Customers **without a Voice Mail Plan recorded a churn rate of 16.71%**.
+
+- Customers who subscribed to the **Voice Mail Plan had a much lower churn rate of 8.87%**.
+
+- This suggests that **value-added services like voicemail may improve customer retention**.
+
+
+## WHICH STATES HAVE THE HIGHEST CHURN RATES?
 
 - ![](churnbystate.PNG)
 
-**Clustered Bar Chart**
-- Average Usage Pattern of Churned vs Active Customers
+Texas recorded the **highest churn rate at 29.09%**.
+
+New Jersey had the **second highest churn rate at 28%**, followed by Arkansas (23.40%), Maryland (23.33%), and Mississippi (22.92%).
+
+This indicates that **customer churn varies across regions**, suggesting the need for location-specific retention strategies.
+
+
+ ## WHAT ARE THE USAGE PATTERNS OF CHURNED VS ACTIVE CUSTOMERS?
 
 - ![](churnbyusagepattern.PNG)
+
+- Churned customers recorded **higher average usage minutes** compared to active customers across most time periods.
+
+- For example:Average **Evening Minutes for churned customers was 209 minutes**, compared to **199 minutes for active customers**.
+
+- This suggests that **customers with higher usage levels may have different expectations regarding service value and pricing**.
 
 **Column Chart**
 - Churn Rate by Call Frequency Bin
