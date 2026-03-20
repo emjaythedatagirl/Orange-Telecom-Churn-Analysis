@@ -248,7 +248,7 @@ This indicates that **customer churn varies across regions**, suggesting the nee
 
 ## Dashboard 2: Telecom Customer Behaviour Analysis
 
-![](behavior.PNG)
+![](planandusage.PNG)
 
 This dashboard focuses on understanding **customer usage behavior and service adoption patterns**.
 
