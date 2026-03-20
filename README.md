@@ -14,8 +14,6 @@ Two dashboards were created to explore:
 
 The final dashboards present key metrics and trends to support **data-driven decision making for telecom customer retention strategies.**
 
-**Disclaimer:**  
-All datasets and reports do not represent any company, institution, or country. They are **dummy datasets used solely to demonstrate Power BI data analysis and visualization capabilities.**
 
 ---
 
@@ -118,7 +116,7 @@ The following preprocessing steps were performed:
 Sum of total day minutes, total evening minutes and total night minutes
 
 ### 2. Total Charges
-Sum of total day charge, total evening charge and total night charge:
+Sum of total day charge, total evening charge, total night charge and total international charge:
 
 ### 3. Call Frequency Bins
 Customers were categorized based on total call activity.
@@ -128,9 +126,9 @@ Customers were categorized based on total call activity.
   
 ### 4. Account Length Bins
 Customers were grouped based on their tenure.
-- Short-Term Customers
-- Mid-Term Customers
-- Long-Term Customers
+- Short-Tenure Customers
+- Mid-Tenure Customers
+- Long-Tenure Customers
 
 ---
 
@@ -144,7 +142,7 @@ The dataset was explored to uncover patterns related to:
 - Usage patterns
 - Billing relationships
 
-Visualizations such as bar charts, column charts, and scatter plots were used to identify trends and relationships within the data.
+Visualizations such as bar charts, column charts, and line charts were used to identify trends and relationships within the data.
 
 
 ---
