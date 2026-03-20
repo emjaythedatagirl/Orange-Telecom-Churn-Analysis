@@ -157,7 +157,7 @@ Two dashboards were designed in Power BI to present insights from different anal
 
 This dashboard focuses on identifying **key drivers of customer churn**.
 
-![](churn.PNG)
+![](csperformance.PNG)
 
 ### Key Visuals
 
