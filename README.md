@@ -181,6 +181,7 @@ This indicates that customers who churn tend to have repeated service issues bef
 ##### Are there specific states or area codes where customer service call rates are significantly higher, indicating regional service issues?
 
 ![](cspgeographical.PNG)
+
 The map highlights states with higher customer service call volumes, indicating potential regional service challenges.
 This suggests that some regions may require targeted service improvements or infrastructure upgrades.
 
