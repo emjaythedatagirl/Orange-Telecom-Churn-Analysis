@@ -257,6 +257,10 @@ Introduce loyalty programs and engagement strategies during the mid-customer lif
 Address regional service gaps identified in high-call areas.
 
 
-### Project Access
+---
 
-Click here to access the project files 
+## Project Files
+
+[Click here to access the project files](https://drive.google.com/drive/folders/18LPyWgWpHx085tZsBbiDlerL-axdL_9f)
+
+---
