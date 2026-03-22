@@ -140,6 +140,7 @@ Two dashboards were designed in Power BI to present insights from different anal
 
 Dashboard 1: Telecom Customer Churn Analysis: Customer Service Performance
 
+![](csperformance.PNG)
 
 ### Key Visuals
 
@@ -149,6 +150,7 @@ Total Customers: 2,666
 Total Churned Customers: 388
 Churn Rate: 14.55%
 Average Revenue Per User (ARPU): $59
+
 WHAT IS THE OVERALL CUSTOMER CHURN RATE?
 
 Out of 2,666 total customers, 388 customers churned, resulting in a 14.55% churn rate.
@@ -157,18 +159,28 @@ This indicates that roughly 1 in every 7 customers leaves the telecom service, h
 
 ##### What is the relationship between the frequency of customer service calls and the probability of a customer churning?
 
+![](csprelations.PNG)
+
 Customers with high call frequency recorded a churn rate of 64.29%.
 Mid-frequency callers had a churn rate of 24.53%, while low-frequency callers had 11.39%.
 
 ##### Is there a specific number of service calls (e.g., 3 or more) that serves as a "tipping point" for customer dissatisfaction?
+
+![](csptipping.PNG)
+
 The line chart shows a clear tipping point after 3–4 service calls, where churn begins to increase sharply.
 This suggests that frequent customer service interactions are a strong predictor of churn and indicate unresolved customer issues.
 
 ##### Do churned customers exhibit a higher average call frequency compared to loyal customers?
+
+![](cspbehavior.PNG)
+
 Churned customers consistently show higher average customer service calls compared to retained customers.
 This indicates that customers who churn tend to have repeated service issues before leaving.
 
 ##### Are there specific states or area codes where customer service call rates are significantly higher, indicating regional service issues?
+
+![](cspgeographical.PNG)
 The map highlights states with higher customer service call volumes, indicating potential regional service challenges.
 This suggests that some regions may require targeted service improvements or infrastructure upgrades.
 
