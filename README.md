@@ -184,64 +184,78 @@ This indicates that customers who churn tend to have repeated service issues bef
 The map highlights states with higher customer service call volumes, indicating potential regional service challenges.
 This suggests that some regions may require targeted service improvements or infrastructure upgrades.
 
+---
+
 Dashboard 2: Telecom Customer Behaviour Analysis
+
+![](planandusage.PNG)
 
 This dashboard focuses on understanding customer usage behavior and service adoption patterns.
 
 DO CUSTOMERS WITH INTERNATIONAL PLANS CHURN MORE?
-Customers with an International Plan recorded significantly higher churn rates compared to those without.
 
+![](puinternational.PNG)
+
+Customers with an International Plan recorded significantly higher churn rates compared to those without.
 This suggests that the international plan may be perceived as expensive or low value, driving customer attrition.
 
 DOES HAVING A VOICE MAIL PLAN REDUCE CHURN?
-Customers with a Voice Mail Plan show lower churn rates compared to those without.
 
+![](puvoicemail.PNG)
+Customers with a Voice Mail Plan show lower churn rates compared to those without.
 This suggests that value-added services improve customer retention and loyalty.
 
 DO LOW-VALUE CUSTOMERS CHURN MORE?
-The revenue comparison shows that churned customers contribute significantly less total revenue compared to active customers.
+![](puusage.PNG)
 
+The revenue comparison shows that churned customers contribute significantly less total revenue compared to active customers.
 This indicates that low-value customers are more likely to churn, making them a key segment for retention strategies.
 
 DOES TENURE AFFECT CHURN?
-Mid-tenure customers show the highest churn risk, compared to new and long-tenure customers.
 
+![](putenure.PNG)
+
+Mid-tenure customers show the highest churn risk, compared to new and long-tenure customers.
 This suggests that customers are most vulnerable during the mid-stage of their lifecycle, making it a critical point for engagement and retention efforts.
 
-Key Insights & Findings
-The dataset contains 2,666 customers, with 388 churned, resulting in a 14.55% churn rate.
-Customers with high customer service calls are significantly more likely to churn.
-A clear churn tipping point exists after 3–4 service calls.
-Customers with an International Plan show higher churn rates.
-Customers with a Voice Mail Plan show lower churn rates, indicating better retention.
-Mid-tenure customers have the highest churn risk.
-Regional differences exist in customer service demand, indicating uneven service quality.
-Low-value customers contribute more to churn, highlighting a key risk segment.
-Recommendations
-Improve Customer Support Experience
+## Key Insights & Findings
+
+- The dataset contains 2,666 customers, with 388 churned, resulting in a 14.55% churn rate.
+- Customers with high customer service calls are significantly more likely to churn.
+- A clear churn tipping point exists after 3–4 service calls.
+- Customers with an International Plan show higher churn rates.
+- Customers with a Voice Mail Plan show lower churn rates, indicating better retention.
+- Mid-tenure customers have the highest churn risk.
+- Regional differences exist in customer service demand, indicating uneven service quality.
+- Low-value customers contribute more to churn, highlighting a key risk segment.
+
+## Recommendations
+
+##### Improve Customer Support Experience
 
 Customers making multiple service calls are more likely to churn. Improving issue resolution speed and support quality is critical.
 
-Identify Critical Call Threshold
+##### Identify Critical Call Threshold
 
 Trigger retention actions once a customer exceeds 3–4 service calls.
 
-Review International Plan Strategy
+##### Review International Plan Strategy
 
 Reassess pricing and value proposition of the international plan.
 
-Promote Value-Added Services
+##### Promote Value-Added Services
 
 Encourage adoption of Voice Mail Plans to improve customer retention.
 
-Focus on Mid-Tenure Customers
+##### Focus on Mid-Tenure Customers
 
 Introduce loyalty programs and engagement strategies during the mid-customer lifecycle stage.
 
-Target High-Risk Regions
+##### Target High-Risk Regions
 
 Address regional service gaps identified in high-call areas.
 
-Project Access
+
+### Project Access
 
 Click here to access the project files 
